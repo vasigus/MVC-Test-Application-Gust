@@ -26,6 +26,7 @@ namespace MvcApplication1.Controllers
 
             base.Initialize(requestContext);
             string str = "now making changes for bug branch iss53";
+            str = "this is a master branch change for iss53 though ******************************************";     
         }
 
         // **************************************
