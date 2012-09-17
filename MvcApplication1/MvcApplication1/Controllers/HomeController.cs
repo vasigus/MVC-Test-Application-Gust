@@ -11,6 +11,7 @@ namespace MvcApplication1.Controllers
     {
         public ActionResult Index()
         {
+            string str = "Adding to the local repostiory";
             ViewData["Message"] = "Welcome to ASP.NET MVC!";
 
             return View();
