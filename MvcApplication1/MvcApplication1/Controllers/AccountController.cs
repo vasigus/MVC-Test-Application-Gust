@@ -25,6 +25,7 @@ namespace MvcApplication1.Controllers
             if (MembershipService == null) { MembershipService = new AccountMembershipService(); }
 
             base.Initialize(requestContext);
+            string str = "now making changes for bug branch iss53";
         }
 
         // **************************************
