@@ -59,6 +59,7 @@ namespace MvcApplication1.Controllers
                 }
             }
             string str = "logon hotfix for master branch";
+            str = "another logon hotfix branch, can't get anything right";
             // If we got this far, something failed, redisplay form
             return View(model);
         }
