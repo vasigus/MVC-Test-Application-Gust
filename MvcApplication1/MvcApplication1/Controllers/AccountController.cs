@@ -58,7 +58,7 @@ namespace MvcApplication1.Controllers
                     ModelState.AddModelError("", "The user name or password provided is incorrect.");
                 }
             }
-
+            string str = "logon hotfix for master branch";
             // If we got this far, something failed, redisplay form
             return View(model);
         }
